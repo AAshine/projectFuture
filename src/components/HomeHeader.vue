@@ -193,6 +193,8 @@ export default{
 } 
 </script>
 <style lang="stylus" scoped>
+.navbar-header img
+    width 110px
 .navbar-brand
     margin-top -10px
 </style>
