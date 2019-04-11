@@ -1,0 +1,174 @@
+//简介 HomeSummary组件 CSS
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form
+    margin:0;
+ ol,ul
+    margin:0; padding:0;
+
+//底部 HomeFooter CSS
+.Homefooter
+    background #493c98
+    display: flex
+    justify-content: center
+    padding:10px
+    & .HomefooterL,.HomefooterR
+        padding 15px
+.HomefooterR
+    display: flex
+.HomefooterR
+    & input
+        color #989a97
+        border 1px solid #989a97
+        background #493c98
+        padding 10px
+        width 250px
+        font-size: 12px
+    & textarea, .submitIn
+        margin 0 10px 0 10px
+        background #493c98
+    & textarea
+        width: 790px
+        height: 160px
+        padding: 10px
+    & textarea::-webkit-input-placeholder
+        color #989a97
+        font-size: 12px
+        padding-left: 5px
+    & .submitIn
+        width: 200px
+        border-radius: 5px
+        color #989a97
+    & span
+        margin:5px
+.formDiv 
+    display: inherit
+    font-size: 12px
+    padding:2px
+.form-group__message
+    display: none;
+    font-size: 12px;
+    color: #CC3333;
+.form-group--error > input + .form-group__message 
+    font-family: "Lato", sans-serif
+    font-size: 10px
+    font-weight: 300
+    line-height: 2.375rem
+    width: 100%
+    box-sizing: border-box
+    display: block
+    color #f79483
+.form-group--error input, .form-group--error input:focus, .form-group--error input:hover, .form-group--error textarea {
+    border-color: #f79483;
+}
+.formPackage
+    display: flex
+.formPackageA
+    margin: 5px 10px 5px 10px
+.BtnSubmit button 
+    border 1px solid #989a97 
+    padding 10px
+.typo__p
+    font-size: 12px;
+    color: #f79483;
+    padding 5px
+.HomefooterL > p
+    color: #fefffa
+    padding-top 2px
+.HomefooterL
+    & p:first-child
+        font-size: 28px
+        padding 15px 0 15px 0
+//课程选择
+.classmate
+    display: flex
+    justify-content: center
+.classmateChoice
+    padding 10px
+    & .classmateNumber
+        border 1px solid #e1e1e1
+        width 285px
+        max-width: 285px
+        & p
+            padding 10px
+            color #343434
+    & img 
+        width 285px;
+        height 180px
+    & .classmateIntro
+        display flex
+        justify-content: space-between
+        background #f5f5f5
+        border-top 1px solid #e1e1e1
+        border-bottom 1px solid #e1e1e1
+        padding: 15px
+        box-sizing: border-box
+        font-size 14px
+//课程 师资 新闻 
+.classTwo
+    display flex
+    margin-top 50px
+    justify-content center
+.classLeft
+    width 720px
+.classRight
+    width 360px
+    height 960px
+//课程 banner
+#CourserDetails{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 540px;
+  }
+  .slider-imgcontainer {
+    margin-top:40px;
+    position: absolute;
+    left: 0;
+    width: 400%;
+    transition: left .5s linear;
+  }
+#CourserDetails img {
+    width: 25%;
+    height: 520px;
+    max-height: 520px;
+    cursor: pointer;
+  }
+  .slider-buttons {
+    position: absolute;
+    left: 60%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .slider-imgindex {
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    margin: 0 10px;
+    background-color: rgba(255, 248, 248, 0.98);
+    border-radius: 7px;
+    transition: width .3s linear;
+  }
+  .slider-imgindex-active {
+    width: 60px;
+  }
+  .slider-move {
+    position: absolute;
+    top: 40%;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slider-move span {
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    width: 50px;
+    background-color: rgba(8,1,1,0.62);
+  }
+  .slider-move span:hover{
+    background-color: rgba(8,1,1,0.9);
+  }
