@@ -39,23 +39,22 @@ export default {
     }
 }
 </script>
-<style lang="stylus">
+<style lang="stylus" scoped>
 .panelTitle
     font-size 21px
     font-weight 600
     padding 20px
 #panelDoubt .ivu-collapse
-
     border none
 #panelDoubt >>> .ivu-collapse-content
-    background-color #493c98
- .ivu-collapse>.ivu-collapse-item>.ivu-collapse-header
-    color #dbd9e8
+    background-color #fff
+#panelDoubt >>> .ivu-collapse>.ivu-collapse-item>.ivu-collapse-header
+    color #333333
     text-overflow:ellipsis;
     overflow:hidden;
     max-width 360px
 #panelDoubt >>> .ivu-collapse-content
-    color #dbd9e8
+    color #333333
 #panelDoubt .ivu-collapse>.ivu-collapse-item
     border none
     

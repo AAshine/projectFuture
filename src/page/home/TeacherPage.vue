@@ -1,23 +1,36 @@
 <template>
-    <div class="classMate">
+    <div class="TeacherPage">
         <div class="bannerImg"><img src="../../assets/images/home/banner2.png"></div>
        <div class="classTwo">
-            <div class="classLeft"><ClassTab/></div>
+            <div class="classLeft">
+                <teacherTab/>
+            </div>
             <div class="classRight">
-                
+                <HotCourse/>
+                <GetNow/>
+                <ContactUs/>
             </div>
        </div>
+       <AllFooter/>
     </div>
 </template>
 <script>
-import ClassTab from '../home/component/classMate/ClassTab'
+import teacherTab from '../home/component/TeacherPage/teacherTab'
+import HotCourse from '../home/component/TeacherPage/HotCourse'
+import GetNow from '../../components/GetNow'
+import ContactUs from '../../components/ContactUs'
+import AllFooter from '../../components/AllFooter'
 export default {
     name:'TeacherPage',
     components:{
-        ClassTab
+        teacherTab,
+        GetNow,
+        ContactUs,
+        HotCourse,
+        AllFooter
     }
 }
 </script>
 <style lang="stylus" scoped>
-
+    
 </style>
