@@ -13,7 +13,24 @@
                 课程简介简介简介简介简介课程简介简介简介简介简介介简介简介介简介简介介简介简介介简介简介介简介简介课程简介简介课程简介简介简介简介简介
             </div>
         </div>
-        
+                <div class="courseContent">
+            <div class="courseLeft">
+                 <img src="../../../../assets/images/home/ke1.png" alt="">
+            </div>
+            <div class="courseRight">
+                <p>课程名称</p>
+                课程简介简介简介简介简介课程简介简介简介简介简介介简介简介介简介简介介简介简介介简介简介介简介简介课程简介简介课程简介简介简介简介简介
+            </div>
+        </div>
+                <div class="courseContent">
+            <div class="courseLeft">
+                 <img src="../../../../assets/images/home/ke1.png" alt="">
+            </div>
+            <div class="courseRight">
+                <p>课程名称</p>
+                课程简介简介简介简介简介课程简介简介简介简介简介介简介简介介简介简介介简介简介介简介简介介简介简介课程简介简介课程简介简介简介简介简介
+            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -22,8 +39,6 @@ export default {
 }
 </script>
 <style lang="stylus">
-.hotCourse
-    border 1px solid red
 .courseRecom
     display flex
     justify-content space-between

@@ -1,6 +1,7 @@
 <template>
     <Tabs value="name1" id="classTab">
         <Tab-pane label="抖音培训" name="name1">
+          <teahcerOneTab/>
         </Tab-pane>
         <Tab-pane label="委托培养" name="name2">22222222</Tab-pane>
         <Tab-pane label="人才预定" name="name3">3</Tab-pane>
@@ -10,11 +11,13 @@
 <script>
 import CouserDetails from '../table/CourseDetails'
 import ClassObject from '../table/ClassObject'
+import teahcerOneTab from '../TeacherPage/teacherOneTab'
     export default {
         name:'ClassTab',
         components:{
           CouserDetails,//图片切换
-          ClassObject//切换内容
+          ClassObject,//切换内容
+          teahcerOneTab
         }
     }
 </script>
