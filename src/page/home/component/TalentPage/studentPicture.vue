@@ -82,7 +82,7 @@
 		    text-align: center;
 		    overflow: hidden;
 		    position: relative;
-            width: 250px;
+            width: 20%;
             margin: 10px;
 		}
 .box img{

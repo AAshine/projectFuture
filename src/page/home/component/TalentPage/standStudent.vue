@@ -19,7 +19,7 @@
 </template>
 <script>
 import standtPicture from '../TalentPage/studentPicture'
-
+import '../../../../assets/css/mediacss.css'
 export default {
       data() {
           return{
@@ -77,19 +77,25 @@ export default {
 }
 </script>
 <style scoped>
+.teachertodo{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
 .standDiv{
     background: #979b8d;
 }
 .standStudent{
-    width:80%;
+    display: flex;
+  flex-wrap: wrap;
     margin: 0 auto;
 }
 .carousel-wrap {
   position: relative;
-  height: 800px;
   width: 100%;
   overflow: hidden;
-  background-color: #fff;
+
 }
 
 .slide-ul {

@@ -12,6 +12,8 @@
     "font-awesome": "^4.7.0",
     "iview": "^3.3.3",
     "jquery": "^3.3.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "swiper": "^4.5.0",
     "vue": "^2.6.6",
     "vue-awesome-swiper": "^3.1.3",
