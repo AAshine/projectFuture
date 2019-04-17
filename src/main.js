@@ -11,6 +11,7 @@ Vue.use(iView)
 Vue.use(Vuelidate)
 Vue.use(VueAwesomeSwiper)
 Vue.use(BackTop)
+
 import "../src/assets/icon/iconfont.css";
 import "swiper/dist/css/swiper.min.css";
 import "../src/assets/css/plugins.css";

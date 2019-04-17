@@ -45,9 +45,9 @@
 									<li><router-link to="/classmate">课程介绍</router-link></li>
 									<li><router-link to="/talent">人才培养</router-link></li>
 									<li><router-link to="/teacher">师资力量</router-link></li>
-                                    <li><router-link to="/">新闻资讯</router-link></li>
-                                    <li><router-link to="/">优秀案例</router-link></li>
-                                    <li><router-link to="/">联系我们</router-link></li>
+                                    <li><router-link to="/news">新闻资讯</router-link></li>
+                                    <li><router-link to="/casedo">优秀案例</router-link></li>
+                                    <li><router-link to="/about">关于我们</router-link></li>
                                 </ul>
 
                             </div><!-- /.navbar-collapse -->

@@ -17,7 +17,7 @@
            <div class="teacherContent">
             <div class="teacherTxtImg">
                 <div class="teacherImg">
-                    <img src="../../../../assets/images/1.jpg" alt="">
+                    <img src="../../../../assets/images/teacher1.png" alt="">
                 </div>
                 <div class="teacherTxt">
                     <p>姓名</p>
@@ -45,7 +45,21 @@
         <div class="teacherContent">
             <div class="teacherTxtImg">
                 <div class="teacherImg">
-                    <img src="../../../../assets/images/1.jpg" alt="">
+                    <img src="../../../../assets/images/teacher1.png" alt="">
+                </div>
+                <div class="teacherTxt">
+                    <p>姓名</p>
+                    <div class="teacherBottom">
+                        <span>点赞9999</span>
+                        <span>热度666</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="teacherContent">
+            <div class="teacherTxtImg">
+                <div class="teacherImg">
+                    <img src="../../../../assets/images/teacher1.png" alt="">
                 </div>
                 <div class="teacherTxt">
                     <p>姓名</p>
@@ -70,23 +84,7 @@
                 </div>
             </div>
         </div>
-            <div class="teacherContent">
-            <div class="teacherTxtImg">
-                <div class="teacherImg">
-                    <img src="../../../../assets/images/1.jpg" alt="">
-                </div>
-                <div class="teacherTxt">
-                    <p>姓名</p>
-                    <div class="teacherBottom">
-                        <span>点赞9999</span>
-                        <span>热度666</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="pageNumber">
-            <Page :total="100" />
-        </div>
+
     </div>
 </template>
 <script>
@@ -98,15 +96,16 @@ export default {
 .teacherOneTab
     display flex    
     flex-flow row wrap
+    width 1200px
+    margin 0 auto
 .teacherContent
     display flex
-    width 220px
-    margin 10px
-    max-width 220px
-    max-height 400px
+    width 25%
+    margin 5px
+    max-width 280px
+    max-height 450px
 .teacherContent img
     width 100%
-    max-height 300px
     overflow hidden
 .teacherTxtImg
     display: flex;

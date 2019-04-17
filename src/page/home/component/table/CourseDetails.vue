@@ -45,7 +45,6 @@
         timer: null,
       }
     },
-
     methods: {
       move() {
         let left = `-${this.currentIndex * 100}%`
@@ -100,5 +99,4 @@
 </script>
 
 <style>
-
 </style>

@@ -14,7 +14,6 @@
                 <ContactUs/>
             </div>
        </div>
-       <AllFooter/>
     </div>
 </template>
 <script>
@@ -24,7 +23,6 @@ import ClassTypeTab from '../home/component/classMate/ClassTypeTab'
 import panelDoubt from '../home/component/table/panelDoubt'
 import GetNow  from '../../components/GetNow'
 import ContactUs from '../../components/ContactUs'
-import AllFooter from '../../components/AllFooter'
 export default {
     name:'ClassMate',
     data(){
@@ -38,8 +36,7 @@ export default {
         ClassTypeTab,//课程类型切换
         panelDoubt,//疑难解答
         GetNow,
-        ContactUs,
-        AllFooter
+        ContactUs
     }
 }
 </script>

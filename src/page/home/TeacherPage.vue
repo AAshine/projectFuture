@@ -11,7 +11,6 @@
                 <ContactUs/>
             </div>
        </div>
-       <AllFooter/>
     </div>
 </template>
 <script>
@@ -19,15 +18,13 @@ import teacherTab from '../home/component/TeacherPage/teacherTab'
 import HotCourse from '../home/component/TeacherPage/HotCourse'
 import GetNow from '../../components/GetNow'
 import ContactUs from '../../components/ContactUs'
-import AllFooter from '../../components/AllFooter'
 export default {
     name:'TeacherPage',
     components:{
         teacherTab,
         GetNow,
         ContactUs,
-        HotCourse,
-        AllFooter
+        HotCourse
     }
 }
 </script>
